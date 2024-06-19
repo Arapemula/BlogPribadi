@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapak Materi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <div class="judul" onclick="window.location.href='index.html'">
+            <div>Blog</div>
+            <div>Pribadi</div>
+        </div>
+        <div  id="item-navbar">
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">hellow</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">about</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">contact</a></p>
+            
+        </div>
+    </div>
+    <section class=" container-navbar menumateri" >
+        <div class="judul explain" ">
+            Materi : 
+        </div>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri.html'"><div class="bab ">1</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri2.html'"><div class="bab ">2</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri3.html'"><div class="bab ">3</div></button>
+        <button  class="tombolatas d" ><div class="bab f">4</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri5.html'"><div class="bab ">5</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri6.html'"><div class="bab ">6</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri7.html'"><div class="bab ">7</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri8.html'"><div class="bab ">8</div></button>
+    </section>
+    
+    <section class="head-core">
+        <h1 class="core-materi h1">Teknologi Internet: Memahami DNS dan Protokol Aplikasi Web</h1>
+
+        <div class="core-materi isi">
+            Internet adalah jaringan global yang menghubungkan jutaan perangkat di seluruh dunia. Dua komponen penting yang memungkinkan internet berfungsi dengan baik adalah DNS (Domain Name System) dan protokol aplikasi web seperti HTTP dan HTTPS. Artikel ini akan menjelaskan secara mendalam tentang bagaimana DNS bekerja dan bagaimana protokol aplikasi web digunakan untuk mengirim dan menerima data di internet.
+        </div>
+
+        <h2 class="core-materi h1">DNS: Domain Name System</h2>
+        <div class="core-materi isi">
+            DNS adalah sistem yang menerjemahkan nama domain yang mudah diingat (seperti www.example.com) menjadi alamat IP yang digunakan oleh komputer untuk berkomunikasi satu sama lain. Tanpa DNS, kita harus mengingat alamat IP setiap situs web yang ingin kita kunjungi, yang tentu saja sangat tidak praktis.
+        </div>
+
+        <h2 class="core-materi h1">Bagaimana DNS Bekerja ? </h2>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Permintaan DNS (DNS Query) </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Ketika Anda memasukkan URL di browser, permintaan DNS dikirim ke server DNS untuk mencari alamat IP yang terkait dengan nama domain tersebut.
+        </div>
+  
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Respon DNS </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Server DNS mencari informasi di database lokal atau meneruskan permintaan ke server DNS lain sampai alamat IP yang sesuai ditemukan. Setelah alamat IP ditemukan, server DNS mengirimkan respon kembali ke komputer Anda.
+        </div>
+
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Cache </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Untuk mempercepat proses di masa mendatang, alamat IP yang ditemukan disimpan dalam cache di komputer Anda dan server DNS. Dengan demikian, permintaan berikutnya untuk domain yang sama dapat diproses lebih cepat.
+        </div>
+
+
+        <h2 class="core-materi h1">Jenis-jenis Rekaman DNS</h2>
+        <div class="core-materi isi">
+            DNS menggunakan beberapa jenis rekaman untuk mengarahkan lalu lintas internet:
+        </div>
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 1. A Record</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Menghubungkan nama domain ke alamat IPv4.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 2. AAAA Record</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Menghubungkan nama domain ke alamat IPv6.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 3. CNAME Record</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Mengarahkan satu nama domain ke nama domain lainnya.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 4. MX Record</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Menentukan server email untuk domain tersebut.
+        </div>
+
+        <h2 class="core-materi h1">Protokol Aplikasi Web: HTTP dan HTTPS</h2>
+        <div class="core-materi isi">
+            Protokol aplikasi web adalah aturan yang mengatur bagaimana data dikirim dan diterima di web. HTTP (Hypertext Transfer Protocol) dan HTTPS (HTTP Secure) adalah dua protokol utama yang digunakan untuk mentransfer data antara browser web dan server.
+        </div>
+
+        <h3 class="core-materi h1">HTTP: Hypertext Transfer Protocol</h3>
+        <div class="core-materi isi">
+            HTTP adalah protokol yang digunakan untuk mentransfer halaman web dari server ke browser Anda. Ketika Anda mengetikkan URL dan menekan Enter, browser mengirimkan permintaan HTTP ke server yang berisi halaman yang Anda minta. Server kemudian merespon dengan mengirimkan halaman web tersebut ke browser Anda.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> Kelebihan HTTP :</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- <strong> Sederhana dan Cepat :</strong>  HTTP adalah protokol yang ringan dan cepat.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Stateless :</strong> Setiap permintaan dan respon HTTP adalah independen, sehingga server tidak perlu menyimpan informasi tentang sesi pengguna.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> Kekurangan HTTP : </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- <strong> Tidak Aman :</strong> Data dikirim dalam teks biasa, yang berarti bisa disadap oleh pihak ketiga.
+        </div>
+        
+        <h3 class="core-materi h1">HTTPS: HTTP Secure</h3>
+        <div class="core-materi isi">
+            HTTPS adalah versi aman dari HTTP. HTTPS menggunakan SSL/TLS (Secure Sockets Layer/Transport Layer Security) untuk mengenkripsi data yang dikirim antara browser dan server. Ini memastikan bahwa data tetap aman selama transmisi.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> Kelebihan HTTPS :</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- <strong>Keamanan :</strong>  Data dienkripsi, melindungi dari penyadapan dan serangan man-in-the-middle.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Kepercayaan Pengguna :</strong> Situs web dengan HTTPS lebih dipercaya oleh pengguna dan mesin pencari.
+        </div>
+
+        <h2 class="core-materi h1">Cara Kerja HTTPS</h2>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 1. Handshake SSL/TLS</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Ketika Anda mengunjungi situs web dengan HTTPS, browser dan server melakukan "handshake" untuk membangun koneksi aman. Ini melibatkan pertukaran sertifikat digital dan negosiasi parameter enkripsi.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> 2. Enkripsi Data</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Setelah handshake selesai, semua data yang ditransfer antara browser dan server dienkripsi. Ini memastikan bahwa hanya pihak yang berwenang yang dapat membaca data tersebut.
+        </div>
+
+        
+
+
+    </section>
+
+    <section class="footer">
+        <div class="information"></div>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

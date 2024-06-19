@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapak Materi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap">    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <div class="judul" onclick="window.location.href='index.html'">
+            <div>Blog</div>
+            <div>Pribadi</div>
+        </div>
+        <div  id="item-navbar">
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">hellow</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">about</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">contact</a></p>
+            
+        </div>
+    </div>
+    <section class=" container-navbar menumateri" >
+        <div class="judul explain" ">
+            Materi : 
+        </div>
+        <button  class="tombolatas d" ><div class="bab f">1</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri2.html'"><div class="bab ">2</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri3.html'"><div class="bab ">3</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri4.html'"><div class="bab ">4</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri5.html'"><div class="bab ">5</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri6.html'"><div class="bab ">6</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri7.html'"><div class="bab ">7</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri8.html'"><div class="bab ">8</div></button>
+    </section>
+
+    <section class="head-core">
+        <h1 class="core-materi h1">Protokol Internet: OSI dan TCP/IP</h1>
+        <div class="core-materi isi">
+            Internet adalah jaringan global yang menghubungkan miliaran perangkat di seluruh dunia. Agar semua perangkat ini bisa berkomunikasi dengan baik, diperlukan protokol internet yang standar. Dua model yang sering digunakan untuk memahami dan mendesain jaringan adalah model OSI (Open Systems Interconnection) dan model TCP/IP (Transmission Control Protocol/Internet Protocol). Mari kita bahas kedua model ini secara detail.
+        </div>
+        <h2 class="core-materi h1">Model OSI</h2>
+        <div class="core-materi isi">
+            Model OSI adalah kerangka konseptual yang digunakan untuk memahami dan mengimplementasikan jaringan komputer. Model ini dibagi menjadi tujuh lapisan yang masing-masing memiliki fungsi spesifik. Berikut adalah tujuh lapisan tersebut:
+        </div>
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Lapisan Fisik (Physical Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Bertanggung jawab untuk transmisi bit mentah melalui medium fisik.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: Kabel Ethernet, sinyal radio Wi-Fi</div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Lapisan Data Link (Data Link Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Mengatur komunikasi data antara dua perangkat yang terhubung langsung.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: Ethernet, MAC address.</div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Lapisan Jaringan (Network Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Menentukan jalur terbaik untuk data melalui jaringan.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: IP (Internet Protocol)..</div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">4. Lapisan Transport (Transport Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Menyediakan transfer data end-to-end dan kontrol kesalahan.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: TCP (Transmission Control Protocol), UDP (User Datagram Protocol).</div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">5.Lapisan Sesi (Session Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Mengelola sesi koneksi antara aplikasi.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: SSL/TLS, encoding karakter (ASCII, EBCDIC).</div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">6. Lapisan Presentasi (Presentation Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Bertanggung jawab untuk translasi, enkripsi, dan kompresi data.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: Ethernet, MAC address.</div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">7. Lapisan Aplikasi (Application Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Menyediakan layanan jaringan kepada aplikasi pengguna.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: HTTP, FTP, SMTP.</div>
+    
+        <h2 class="core-materi h1">Contoh Implementasi Model OSI</h2>
+        <div class="core-materi isi">
+            Misalnya, saat Anda mengirim email, data akan melewati setiap lapisan ini. Di lapisan aplikasi, email diubah menjadi format yang dapat dibaca oleh perangkat. Lapisan presentasi mungkin mengenkripsi email untuk keamanan. Lapisan sesi mengelola sesi komunikasi antara perangkat Anda dan server email. Lapisan transport memastikan data dikirim tanpa kesalahan. Lapisan jaringan menentukan jalur data melalui internet. Lapisan data link mengatur transfer data antara perangkat fisik, dan akhirnya lapisan fisik mengirim bit data mentah melalui kabel atau sinyal nirkabel.
+        </div>
+
+        <h2 class="core-materi h1" style="margin-top: 100px;">Model TCP/IP</h2>
+        <div class="core-materi isi">
+            Model TCP/IP adalah kerangka kerja yang lebih praktis dan digunakan secara luas untuk komunikasi di internet. Model ini terdiri dari empat lapisan:
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Lapisan Akses Jaringan (Network Access Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Menggabungkan fungsi lapisan fisik dan data link dari model OSI.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: Ethernet, Wi-Fi.</div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Lapisan Internet (Internet Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Mengatur penanganan paket dan routing.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: IP (Internet Protocol).</div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Lapisan Transport (Transport Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Mengatur komunikasi end-to-end, mirip dengan lapisan transport pada model OSI.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: TCP, UDP.</div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Lapisan Aplikasi (Application Layer):</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- Menyediakan layanan jaringan untuk aplikasi, mirip dengan lapisan aplikasi pada model OSI.</div>
+        <div class="core-materi isi" style="margin-left: 110px;">- Contoh: HTTP, FTP, SMTP.</div>
+
+        <h2 class="core-materi h1">Contoh Implementasi Model TCP/IP</h2>
+        <div class="core-materi isi">
+            Ketika Anda mengakses sebuah website, data yang dikirim dan diterima melalui jaringan melewati keempat lapisan ini. Browser Anda (lapisan aplikasi) mengirim permintaan HTTP ke server. Permintaan ini dikemas oleh lapisan transport menggunakan TCP. Selanjutnya, lapisan internet menambahkan alamat IP tujuan dan sumber. Akhirnya, lapisan akses jaringan menangani detail fisik pengiriman data melalui kabel atau sinyal nirkabel.
+        </div>
+
+    </section>
+    
+    <section class="footer">
+        <div class="information"></div>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

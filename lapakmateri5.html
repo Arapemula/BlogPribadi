@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapak Materi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <div class="judul" onclick="window.location.href='index.html'">
+            <div>Blog</div>
+            <div>Pribadi</div>
+        </div>
+        <div  id="item-navbar">
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">hellow</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">about</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">contact</a></p>
+            
+        </div>
+    </div>
+    <section class=" container-navbar menumateri" >
+        <div class="judul explain" ">
+            Materi : 
+        </div>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri.html'"><div class="bab ">1</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri2.html'"><div class="bab ">2</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri3.html'"><div class="bab ">3</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri4.html'"><div class="bab ">4</div></button>
+        <button  class="tombolatas d"><div class="bab f">5</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri6.html'"><div class="bab ">6</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri7.html'"><div class="bab ">7</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri8.html'"><div class="bab ">8</div></button>
+    </section>
+    
+    <section class="head-core">
+        <h1 class="core-materi h1">Memahami Protokol: Protokol Email dan Cara Kerjanya</h1>
+
+        <div class="core-materi isi">
+            Email adalah salah satu bentuk komunikasi elektronik yang paling umum digunakan di seluruh dunia. Untuk mengirim, menerima, dan mengelola email, berbagai protokol email digunakan. Artikel ini akan menjelaskan secara mendalam tentang protokol email utama, yaitu SMTP, POP3, dan IMAP, serta bagaimana mereka bekerja.
+        </div>
+
+        <h2 class="core-materi h1">Protokol Email: Dasar-Dasar</h2>
+        <div class="core-materi isi">
+            Protokol email adalah seperangkat aturan yang mengatur bagaimana email dikirim, diterima, dan disimpan. Tiga protokol email utama adalah SMTP (Simple Mail Transfer Protocol), POP3 (Post Office Protocol version 3), dan IMAP (Internet Message Access Protocol).
+        </div>
+
+        <h2 class="core-materi h1">SMTP: Simple Mail Transfer Protocol </h2>
+        <h3 class="core-materi h1" > Fungsi SMTP</h3>
+        <div class="core-materi isi">
+            SMTP digunakan untuk mengirim email dari klien email (seperti Outlook atau Gmail) ke server email dan dari satu server email ke server email lainnya. SMTP hanya digunakan untuk mengirim email, bukan untuk menerima atau menyimpannya.
+        </div>
+
+        <h3 class="core-materi h1" > Cara Kerja SMTP</h3>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Klien Mengirim Permintaan </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Ketika Anda mengirim email, klien email Anda (misalnya, aplikasi email di komputer atau ponsel) membuat koneksi ke server SMTP.
+        </div>
+  
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Handshaking </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Klien dan server melakukan "handshake" untuk memulai sesi komunikasi. Ini melibatkan pertukaran informasi seperti identifikasi klien dan server.
+        </div>
+
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Pengiriman Email </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Klien mengirimkan email ke server SMTP, yang kemudian mengirimkan email tersebut ke server penerima. Server SMTP menggunakan DNS untuk mencari server email penerima berdasarkan domain penerima (misalnya, untuk mengirim email ke example@example.com, server SMTP mencari server yang menangani domain example.com).
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">4. Relaying </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Jika server SMTP tidak dapat mengirimkan email langsung ke server penerima, email tersebut dapat diteruskan melalui beberapa server SMTP hingga mencapai tujuan akhirnya.
+        </div>
+
+        <h2 class="core-materi h1">POP3: Post Office Protocol version 3 </h2>
+        <h3 class="core-materi h1" > Fungsi POP3</h3>
+        <div class="core-materi isi">
+            POP3 digunakan untuk mengunduh email dari server email ke klien email. Protokol ini cocok untuk pengguna yang ingin mengakses email secara offline karena email diunduh ke perangkat lokal dan biasanya dihapus dari server setelah diunduh.
+        </div>
+
+        <h3 class="core-materi h1" > Cara Kerja POP3</h3>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Koneksi ke Server POP3 </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Klien email menghubungkan ke server POP3 menggunakan port standar (110 untuk tidak terenkripsi, 995 untuk SSL/TLS).
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Autentikasi </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Pengguna memasukkan kredensial (nama pengguna dan kata sandi) untuk mengakses email di server.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Unduh Email </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Semua email di server diunduh ke klien email. Setelah diunduh, email dapat dihapus dari server tergantung pada pengaturan klien email.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">4. Akses Offline </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Pengguna dapat membaca dan mengelola email secara offline karena semua email disimpan secara lokal.
+        </div>
+
+        <h2 class="core-materi h1">IMAP: Internet Message Access Protocol</h2>
+        <h3 class="core-materi h1" > Fungsi IMAP</h3>
+        <div class="core-materi isi">
+            IMAP memungkinkan pengguna untuk mengakses dan mengelola email langsung di server tanpa perlu mengunduhnya ke perangkat lokal. Ini berguna untuk pengguna yang mengakses email dari berbagai perangkat karena semua perubahan disinkronkan di server.
+        </div>
+
+        <h3 class="core-materi h1" > Cara Kerja IMAP</h3>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Koneksi ke Server IMAP </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Klien email menghubungkan ke server IMAP menggunakan port standar (143 untuk tidak terenkripsi, 993 untuk SSL/TLS).
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Autentikasi </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Pengguna memasukkan kredensial untuk mengakses email di server.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Sinkronisasi </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Email ditampilkan di klien email tetapi tetap disimpan di server. Setiap perubahan yang dilakukan (seperti membaca, menghapus, atau memindahkan email) disinkronkan dengan server, sehingga perubahan terlihat di semua perangkat yang terhubung.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">4. Akses dari Berbagai Perangkat </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">IMAP memungkinkan akses email yang konsisten dari berbagai perangkat (komputer, ponsel, tablet) karena semua email dan folder disimpan di server dan disinkronkan secara real-time.
+        </div>
+
+        <h2 class="core-materi h1">Keuntungan dan Kekurangan Protokol Email</h2>
+        <h3 class="core-materi h1" > SMTP</h3>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Keuntungan :</strong> Sederhana dan efisien untuk mengirim email.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Kekurangan :</strong> Hanya digunakan untuk pengiriman, tidak mendukung penerimaan atau manajemen email.
+        </div>
+
+        <h3 class="core-materi h1" > POP3</h3>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Keuntungan :</strong> Mengunduh email ke perangkat lokal, memungkinkan akses offline.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Kekurangan :</strong> Email dihapus dari server setelah diunduh (tergantung pengaturan), sulit untuk mengelola email dari berbagai perangkat.
+        </div>
+
+        <h3 class="core-materi h1" > IMAP</h3>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Keuntungan :</strong> Akses email dari berbagai perangkat dengan sinkronisasi real-time, manajemen email yang lebih fleksibel.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- <strong> Kekurangan :</strong> Membutuhkan koneksi internet untuk akses penuh, penggunaan ruang server yang lebih besar.
+        </div>
+
+
+       
+
+    </section>
+
+    <section class="footer">
+        <div class="information"></div>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

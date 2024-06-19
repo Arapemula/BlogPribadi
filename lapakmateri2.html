@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lapak Materi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@800&display=swap" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-navbar">
+        <div class="judul" onclick="window.location.href='index.html'">
+            <div>Blog</div>
+            <div>Pribadi</div>
+        </div>
+        <div  id="item-navbar">
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">hellow</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">about</a></p>
+            <p class="tes"><a href="" style="text-decoration: none;color: white;">contact</a></p>
+            
+        </div>
+    </div>
+    <section class=" container-navbar menumateri" >
+        <div class="judul explain" ">
+            Materi : 
+        </div>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri.html'"><div class="bab ">1</div></button>
+        <button  class="tombolatas d"><div class="bab f">2</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri3.html'"><div class="bab ">3</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri4.html'"><div class="bab ">4</div></button>
+        <button  class="tombolatas" onclick="window.location.href='lapakmateri5.html'"><div class="bab ">5</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri6.html'"><div class="bab ">6</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri7.html'"><div class="bab ">7</div></button>
+        <button  class="tombolatas " onclick="window.location.href='lapakmateri8.html'"><div class="bab ">8</div></button>
+    </section>
+    
+    <section class="head-core">
+        <h1 class="core-materi h1">TCP vs. UDP: Pengertian, Cara Kerja, dan Perbedaan</h1>
+
+        <h2 class="core-materi h1">Pengertian TCP dan UDP</h2>
+        <div class="core-materi isi">
+            - TCP (Transmission Control Protocol) adalah protokol yang digunakan untuk mentransfer data melalui jaringan dengan pendekatan connection-oriented. Artinya, sebelum data dikirim, server dan klien harus saling menyetujui koneksi yang valid. Contoh penggunaan TCP meliputi pengiriman email menggunakan SMTP, meeting online, pengiriman file menggunakan FTP, dan membuka website menggunakan protokol HTTP.
+        </div>
+        <div class="core-materi isi" style="margin-top: 20px;">
+           - UDP (User Datagram Protocol) adalah protokol yang tidak memerlukan koneksi atau disebut connectionless. UDP mengirim paket data tanpa perlu melakukan handshake atau validasi koneksi. Contoh penggunaan UDP adalah streaming video, game online, dan aplikasi yang memerlukan respons cepat.
+        </div>
+
+        <h2 class="core-materi h1">Cara Kerja TCP </h2>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Nomor Urutan dan Label: </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">TCP memberikan nomor urutan dan label unik pada setiap paket data. Klien dapat memahami paket yang diterima dan yang akan diterima.
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Konfirmasi Penerimaan: </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Setelah klien menerima paket dengan benar sesuai nomor urutannya, klien memberitahukan server bahwa data sudah diterima.
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">3. Kontrol Trafik:  </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Karena paket data berurutan, TCP dapat mengontrol aliran data dan mengidentifikasi kesalahan pada paket.
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">4. Komunikasi Dua Arah:  </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">Jika ada kesalahan atau urutan paket salah, klien memberitahukan server untuk mengirim ulang paket data.
+        </div>
+        
+        <h2 class="core-materi h1">Cara Kerja UDP </h2>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">1. Tanpa Label atau Nomor Urutan:  </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">UDP tidak memberikan label atau nomor urutan pada paket data. Hanya mengirim dan menghitung paket data.
+        </div>
+        
+        <h3 class="core-materi h1" style="margin-left: 100px;">2. Respons Cepat: </h3>
+        <div class="core-materi isi" style="margin-left: 110px;">UDP tidak memeriksa paket data yang terkirim, sehingga lebih cepat. Namun, paket data bisa hilang dalam proses transmisi.
+        </div>
+
+        <h2 class="core-materi h1">Perbedaan Antara TCP dan UDP</h2>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;"> Keandalan :</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- TCP : Lebih andal karena melakukan konfirmasi penerimaan dan mengirim ulang paket jika ada kesalahan.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- UDP : Tidak andal karena tidak melakukan konfirmasi penerimaan dan tidak mengirim ulang paket.
+        </div>
+
+        <h3 class="core-materi h1" style="margin-left: 100px;">Kecepatan :</h3>
+        <div class="core-materi isi" style="margin-left: 110px;">- TCP :  Lebih lambat karena komunikasi dua arah dan validasi koneksi.
+        </div>
+        <div class="core-materi isi" style="margin-left: 110px; margin-top: 10px;">- UDP : Lebih cepat karena tidak ada validasi koneksi.
+        </div>
+
+        
+
+
+    </section>
+
+    <section class="footer">
+        <div class="information"></div>
+    </section>
+
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
